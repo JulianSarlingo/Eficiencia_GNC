@@ -2,6 +2,8 @@ Proyecto: Eficiencia GNC
 
 Este es un proyecto de programación que busca llevar un buen registro de los gastos de un coche con GNC vs ese mismo coche si usara Gasolina.
 
-Se usa una base de datos donde se introduce la distancia recorrida hasta el momento de la carga de gas, los metros cubicos que cargan al momento del llenado del tubo, y el precio por metro cubico de esa estacion. Adicionalmente se le puede ajustar el precio promedio de la Gasolina, pero una vez ajustado el valor se coloca por defecto. 
+El programa está diseñado para crear una base de datos si no existe una previamente, junto con el archivo del propio programa. Utiliza esta base de datos para ingresar información relevante en cada carga de gas, incluyendo la distancia recorrida hasta el momento de la carga, los metros cúbicos de GNC llenados en el tanque y el precio por metro cúbico en la estación de servicio.  Adicionalmente se le puede ajustar el precio promedio de la Gasolina en la base de datos, pero una vez ajustado el valor se coloca por defecto. 
 
-Este programa una vez coloques los datos, calculara la eficiencia en km/l (o m3) lo que pagaste de Gas, y lo que hubiera sido de Nafta. Luego, estos resultados se presentan de manera más visual y clara en una ventana o pantalla más llamativa para el usuario.
+Una vez ingresados los datos, el programa calcula la eficiencia en términos de kilómetros por litro (o metro cubico) de gas, el costo total de GNC y el equivalente en costo de gasolina. Con estos cálculos, se determina el ahorro por cada carga y el ahorro total acumulado. Estos resultados se presentan de manera clara y visualmente atractiva en una interfaz de usuario.
+
+Para obtener más información detallada sobre el funcionamiento del programa, se sugiere revisar el código fuente donde se incluye información adicional.
