@@ -157,8 +157,8 @@ def main():
 
 if __name__ == '__main__':
     # Crear base de datos si no existe
-    if not os.path.exists('viajes.db'):
-        db = sqlite3.connect('viajes.db')
+    if not os.path.exists('eficiencia_gnc.db'):
+        db = sqlite3.connect('eficiencia_gnc.db')
         cursor = db.cursor()
         cursor.execute('''CREATE TABLE IF NOT EXISTS Viajes (
                             Etapa INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -173,7 +173,7 @@ if __name__ == '__main__':
 
 
 """
-Con este codigo se crea una base de datos llamada viajes.db que contiene los siguientes campos:
+Con este codigo se crea una base de datos llamada eficiencia_gnc.db que contiene los siguientes campos:
 - Etapa (campo clave primaria autoincrementable).
 - Distancia recorrida en km.
 - Litros consumidos (en realidad metros cubicos de gas).
